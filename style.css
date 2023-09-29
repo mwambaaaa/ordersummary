@@ -1,4 +1,113 @@
-   body
-   {
-   	background-color: palevioletred;
-   }
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700;900&display=swap');
+ 
+ *{
+
+   padding: 0;
+   margin: 0;
+ }
+
+ .container{
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  background-color: hsl(225, 100%, 94%);
+ }
+
+ .child{
+   height: 550px;
+   width: 350px;
+   background-color: white;
+border-radius:0px 0px 10px 10px;
+
+ }
+
+ .image{
+   width: 100%;
+
+ }
+
+ .image img{
+   width: 100%;
+   border-radius: 10px 10px 0px 0px;
+ }
+
+ .summary {
+   padding: 15px;
+   display: flex;
+flex-direction: column;
+align-items: center;
+
+ }
+ .summary-text h2{
+   font-family: 'Red Hat Display', sans-serif;
+   font-weight: 900;
+   text-align: center;
+   margin: 10px 10px;
+   color:  hsl(223, 47%, 23%);
+   
+ }
+ .summary-text p{
+   text-align: center;
+   padding: 15px;
+   font-family: 'Red Hat Display', sans-serif;
+   font-weight: 500;
+   color: hsl(224, 23%, 55%);
+ }
+ .plan{
+   background-color:hsl(225, 100%, 98%);
+   display: flex;
+   justify-content: space-between;
+   padding: 10px;
+   align-items: center;
+   border-radius: 10px;
+   width: 90%;
+
+ }
+
+ .annual{
+   display: flex;
+   gap: 1em;
+ }
+ /* font-family: 'Red Hat Display', sans-serif; */
+
+ .annual-plan p{
+   font-family: 'Red Hat Display', sans-serif;
+   font-weight: 900;
+
+ }
+
+ .annual-plan span{
+   font-family: 'Red Hat Display', sans-serif;
+   font-weight: 400;
+
+ }
+
+ .change p{
+   text-decoration: underline;
+   font-family: 'Red Hat Display', sans-serif;
+   color: hsl(224, 23%, 55%);  
+    }
+
+ .button{
+   width: 90%;
+   padding:10px;
+
+ }
+ .button button{
+   width: 100%;
+   padding: 10px 13px;
+   border: none;
+   background-color: hsl(245, 75%, 52%);
+   font-family: 'Red Hat Display', sans-serif;
+   font-weight: 900;
+   color: white;
+   border-radius: 10px;
+   margin: 10px 10px;
+ }
+
+ .cancel{
+   font-family: 'Red Hat Display', sans-serif;
+   font-weight: 400;
+   color: hsl(224, 23%, 55%);
+ }
